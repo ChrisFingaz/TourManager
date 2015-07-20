@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C277CC1B5AA0AA00E55E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C277CB1B5AA0AA00E55E74 /* AppDelegate.swift */; };
+		93C277D31B5AA0AA00E55E74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C277D21B5AA0AA00E55E74 /* Images.xcassets */; };
+		93C277D61B5AA0AA00E55E74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C277D41B5AA0AA00E55E74 /* LaunchScreen.xib */; };
+		93C277E21B5AA0AA00E55E74 /* TourManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C277E11B5AA0AA00E55E74 /* TourManagerTests.swift */; };
+		93C277EF1B5AA33300E55E74 /* TMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C277ED1B5AA33300E55E74 /* TMViewController.swift */; };
+		93C277F01B5AA33300E55E74 /* TMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C277EE1B5AA33300E55E74 /* TMViewController.xib */; };
+		93C277F31B5AB46000E55E74 /* BandListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C277F11B5AB46000E55E74 /* BandListViewController.swift */; };
+		93C277F41B5AB46000E55E74 /* BandListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C277F21B5AB46000E55E74 /* BandListViewController.xib */; };
+		93C277FE1B5AB86500E55E74 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C277FD1B5AB86500E55E74 /* Band.swift */; };
+		93C278031B5ABA1300E55E74 /* TMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C278021B5ABA1300E55E74 /* TMClient.swift */; };
+		93C278061B5C0EAB00E55E74 /* TourListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C278041B5C0EAB00E55E74 /* TourListViewController.swift */; };
+		93C278071B5C0EAB00E55E74 /* TourListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C278051B5C0EAB00E55E74 /* TourListViewController.xib */; };
+		93C278091B5C105700E55E74 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C278081B5C105700E55E74 /* Tour.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C277DC1B5AA0AA00E55E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C277BE1B5AA0AA00E55E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C277C51B5AA0AA00E55E74;
+			remoteInfo = TourManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93C277C61B5AA0AA00E55E74 /* TourManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C277CA1B5AA0AA00E55E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C277CB1B5AA0AA00E55E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C277D21B5AA0AA00E55E74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93C277D51B5AA0AA00E55E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		93C277DB1B5AA0AA00E55E74 /* TourManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C277E01B5AA0AA00E55E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C277E11B5AA0AA00E55E74 /* TourManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourManagerTests.swift; sourceTree = "<group>"; };
+		93C277ED1B5AA33300E55E74 /* TMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMViewController.swift; sourceTree = "<group>"; };
+		93C277EE1B5AA33300E55E74 /* TMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMViewController.xib; sourceTree = "<group>"; };
+		93C277F11B5AB46000E55E74 /* BandListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BandListViewController.swift; path = ViewControllers/BandListViewController.swift; sourceTree = "<group>"; };
+		93C277F21B5AB46000E55E74 /* BandListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BandListViewController.xib; path = ViewControllers/BandListViewController.xib; sourceTree = "<group>"; };
+		93C277FD1B5AB86500E55E74 /* Band.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Band.swift; path = DataModals/Band.swift; sourceTree = "<group>"; };
+		93C278021B5ABA1300E55E74 /* TMClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMClient.swift; path = DataClients/TMClient.swift; sourceTree = "<group>"; };
+		93C278041B5C0EAB00E55E74 /* TourListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TourListViewController.swift; path = ViewControllers/TourListViewController.swift; sourceTree = "<group>"; };
+		93C278051B5C0EAB00E55E74 /* TourListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TourListViewController.xib; path = ViewControllers/TourListViewController.xib; sourceTree = "<group>"; };
+		93C278081B5C105700E55E74 /* Tour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tour.swift; path = DataModals/Tour.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C277C31B5AA0AA00E55E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C277D81B5AA0AA00E55E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C277BD1B5AA0AA00E55E74 = {
+			isa = PBXGroup;
+			children = (
+				93C277C81B5AA0AA00E55E74 /* TourManager */,
+				93C277DE1B5AA0AA00E55E74 /* TourManagerTests */,
+				93C277C71B5AA0AA00E55E74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C277C71B5AA0AA00E55E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C277C61B5AA0AA00E55E74 /* TourManager.app */,
+				93C277DB1B5AA0AA00E55E74 /* TourManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C277C81B5AA0AA00E55E74 /* TourManager */ = {
+			isa = PBXGroup;
+			children = (
+				93C278011B5AB9E100E55E74 /* DataClients */,
+				93C277CB1B5AA0AA00E55E74 /* AppDelegate.swift */,
+				93C277D21B5AA0AA00E55E74 /* Images.xcassets */,
+				93C277D41B5AA0AA00E55E74 /* LaunchScreen.xib */,
+				93C277C91B5AA0AA00E55E74 /* Supporting Files */,
+				93C277ED1B5AA33300E55E74 /* TMViewController.swift */,
+				93C277EE1B5AA33300E55E74 /* TMViewController.xib */,
+				93C277F71B5AB4C300E55E74 /* ViewControllers */,
+				93C277FA1B5AB7BF00E55E74 /* DataModals */,
+			);
+			path = TourManager;
+			sourceTree = "<group>";
+		};
+		93C277C91B5AA0AA00E55E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C277CA1B5AA0AA00E55E74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93C277DE1B5AA0AA00E55E74 /* TourManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93C277E11B5AA0AA00E55E74 /* TourManagerTests.swift */,
+				93C277DF1B5AA0AA00E55E74 /* Supporting Files */,
+			);
+			path = TourManagerTests;
+			sourceTree = "<group>";
+		};
+		93C277DF1B5AA0AA00E55E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C277E01B5AA0AA00E55E74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93C277F71B5AB4C300E55E74 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93C277F11B5AB46000E55E74 /* BandListViewController.swift */,
+				93C277F21B5AB46000E55E74 /* BandListViewController.xib */,
+				93C278041B5C0EAB00E55E74 /* TourListViewController.swift */,
+				93C278051B5C0EAB00E55E74 /* TourListViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93C277FA1B5AB7BF00E55E74 /* DataModals */ = {
+			isa = PBXGroup;
+			children = (
+				93C277FD1B5AB86500E55E74 /* Band.swift */,
+				93C278081B5C105700E55E74 /* Tour.swift */,
+			);
+			name = DataModals;
+			sourceTree = "<group>";
+		};
+		93C278011B5AB9E100E55E74 /* DataClients */ = {
+			isa = PBXGroup;
+			children = (
+				93C278021B5ABA1300E55E74 /* TMClient.swift */,
+			);
+			name = DataClients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C277C51B5AA0AA00E55E74 /* TourManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C277E51B5AA0AA00E55E74 /* Build configuration list for PBXNativeTarget "TourManager" */;
+			buildPhases = (
+				93C277C21B5AA0AA00E55E74 /* Sources */,
+				93C277C31B5AA0AA00E55E74 /* Frameworks */,
+				93C277C41B5AA0AA00E55E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourManager;
+			productName = TourManager;
+			productReference = 93C277C61B5AA0AA00E55E74 /* TourManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93C277DA1B5AA0AA00E55E74 /* TourManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C277E81B5AA0AA00E55E74 /* Build configuration list for PBXNativeTarget "TourManagerTests" */;
+			buildPhases = (
+				93C277D71B5AA0AA00E55E74 /* Sources */,
+				93C277D81B5AA0AA00E55E74 /* Frameworks */,
+				93C277D91B5AA0AA00E55E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C277DD1B5AA0AA00E55E74 /* PBXTargetDependency */,
+			);
+			name = TourManagerTests;
+			productName = TourManagerTests;
+			productReference = 93C277DB1B5AA0AA00E55E74 /* TourManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C277BE1B5AA0AA00E55E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = tigerbomb;
+				TargetAttributes = {
+					93C277C51B5AA0AA00E55E74 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					93C277DA1B5AA0AA00E55E74 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 93C277C51B5AA0AA00E55E74;
+					};
+				};
+			};
+			buildConfigurationList = 93C277C11B5AA0AA00E55E74 /* Build configuration list for PBXProject "TourManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C277BD1B5AA0AA00E55E74;
+			productRefGroup = 93C277C71B5AA0AA00E55E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C277C51B5AA0AA00E55E74 /* TourManager */,
+				93C277DA1B5AA0AA00E55E74 /* TourManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C277C41B5AA0AA00E55E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C277D61B5AA0AA00E55E74 /* LaunchScreen.xib in Resources */,
+				93C278071B5C0EAB00E55E74 /* TourListViewController.xib in Resources */,
+				93C277F01B5AA33300E55E74 /* TMViewController.xib in Resources */,
+				93C277D31B5AA0AA00E55E74 /* Images.xcassets in Resources */,
+				93C277F41B5AB46000E55E74 /* BandListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C277D91B5AA0AA00E55E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C277C21B5AA0AA00E55E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C278091B5C105700E55E74 /* Tour.swift in Sources */,
+				93C277CC1B5AA0AA00E55E74 /* AppDelegate.swift in Sources */,
+				93C277F31B5AB46000E55E74 /* BandListViewController.swift in Sources */,
+				93C278031B5ABA1300E55E74 /* TMClient.swift in Sources */,
+				93C277FE1B5AB86500E55E74 /* Band.swift in Sources */,
+				93C278061B5C0EAB00E55E74 /* TourListViewController.swift in Sources */,
+				93C277EF1B5AA33300E55E74 /* TMViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C277D71B5AA0AA00E55E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C277E21B5AA0AA00E55E74 /* TourManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C277DD1B5AA0AA00E55E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C277C51B5AA0AA00E55E74 /* TourManager */;
+			targetProxy = 93C277DC1B5AA0AA00E55E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93C277D41B5AA0AA00E55E74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C277D51B5AA0AA00E55E74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C277E31B5AA0AA00E55E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93C277E41B5AA0AA00E55E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C277E61B5AA0AA00E55E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93C277E71B5AA0AA00E55E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93C277E91B5AA0AA00E55E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TourManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourManager.app/TourManager";
+			};
+			name = Debug;
+		};
+		93C277EA1B5AA0AA00E55E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TourManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourManager.app/TourManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C277C11B5AA0AA00E55E74 /* Build configuration list for PBXProject "TourManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C277E31B5AA0AA00E55E74 /* Debug */,
+				93C277E41B5AA0AA00E55E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C277E51B5AA0AA00E55E74 /* Build configuration list for PBXNativeTarget "TourManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C277E61B5AA0AA00E55E74 /* Debug */,
+				93C277E71B5AA0AA00E55E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93C277E81B5AA0AA00E55E74 /* Build configuration list for PBXNativeTarget "TourManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C277E91B5AA0AA00E55E74 /* Debug */,
+				93C277EA1B5AA0AA00E55E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C277BE1B5AA0AA00E55E74 /* Project object */;
+}
